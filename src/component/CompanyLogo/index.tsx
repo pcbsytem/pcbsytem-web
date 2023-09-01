@@ -1,40 +1,29 @@
-import Image from 'next/image'
-import notFound from './assets/image.png'
+import Image, { StaticImageData } from 'next/image'
+import { companyImages } from './index.contants'
+import { useMemo } from 'react'
 import './index.css'
-import { useCallback, useMemo } from 'react'
 
 interface CompanyLogoProps {
+  icon: string
   name: string
   url: string
-  path: string
 }
 
-export function CompanyLogo({ name, url, path }: CompanyLogoProps) {
-  const urlFull = useMemo(() => `${url}${path}`, [url, path])
-  const checkURL = useCallback((url: string) => {
-    return url.match(/\.(jpeg|jpg|gif|png|ico)$/) != null
-  }, [])
-
-  return checkURL(urlFull) ? (
-    <a href={url} target="_blank">
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
+export function CompanyLogo({ name, url, icon }: CompanyLogoProps) {
+  type CompanyImagesType = keyof typeof companyImages
+  const iconItem: StaticImageData = useMemo(
+    () => companyImages[icon as CompanyImagesType],
+    [icon]
+  )
+  return (
+    <a href={url} title={name} target="_blank">
+      <Image
         className="company-logo"
-        src={urlFull}
+        src={iconItem}
         width={24}
         height={24}
-        title={name}
         alt="company logo"
       />
     </a>
-  ) : (
-    <Image
-      className="company-logo"
-      src={notFound}
-      width={24}
-      height={24}
-      title={name}
-      alt="not found company logo"
-    />
   )
 }

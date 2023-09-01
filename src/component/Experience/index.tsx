@@ -8,8 +8,8 @@ export function Experience() {
       company: 'GFT Group',
       role: 'Frontend Developer',
       url: 'https://www.gft.com',
-      path: '/.resources/gft/webresources/img/gft-favicon.ico',
       period: 'Sep/2021 - Present',
+      icon: 'gft',
       description: `
       - I am currently working on the Industry - Equipment Visualization Asset project,
       an internal project of GFT Brazil in conjunction with GFT Costa Rica, whose
@@ -29,32 +29,32 @@ export function Experience() {
       company: 'Orgsystem',
       role: 'Frontend Developer',
       url: 'https://orgsystem.com.br',
-      path: '/favicon-32x32.png',
       period: 'Nov/2016 - Sep/2017',
+      icon: 'orgsystem',
       description: `At that time, I was responsible for creating project structure, style code, and patterns and helping developers in their beginner and internship stages. I worked on religious systems like ArquiSP, an Arch Diocese of São Paulo app that people can follow church activities, and on other ERP systems like financial and commercial web apps.`
     },
     {
       company: 'ENGDigital Soluções em TI',
       role: 'Frontend Developer',
       url: 'https://engdigital.com.br',
-      path: '/wp-content/uploads/2021/03/engdigital.png',
       period: 'Nov/2016 - Sep/2017',
+      icon: 'engdigital',
       description: `Development EngDigital landing page (It isn't the current). I developed SPA Frontend that manages sales goals and I created some promotional material for the brand and manufacture other web systems.`
     },
     {
       company: 'SMN Information Technology',
       role: 'Frontend Developer',
-      url: '',
-      path: '',
+      url: 'https://www.linkedin.com/company/smn-tecnologia/?originalSubdomain=br',
       period: 'Nov/2016 - Sep/2017',
+      icon: 'smn',
       description: `Together with my team I developed Web SPA with Angular for Unimed (Hospital in Brazil), This application management and follow services status. I helped in other Web applications with maintenance and changes, I worked in the furniture assembly management system and by the management of the Magalu (store) and I worked in other applications.`
     },
     {
       company: 'SMN Information Technology',
       role: 'Frontend Developer',
-      url: '',
-      path: '',
+      url: 'https://www.linkedin.com/company/smn-tecnologia/?originalSubdomain=br',
       period: 'Nov/2016 - Sep/2017',
+      icon: 'smn',
       description: `I was studying Javascript, Jquery, HTML, CSS and created logo icons, developed web pages (landing page, SPA).`
     }
   ]
@@ -66,9 +66,9 @@ export function Experience() {
           <div className="item" key={index}>
             <div className="title">
               <CompanyLogo
+                icon={item.icon}
                 name={item.company}
                 url={item.url}
-                path={item.path}
               />
               <div>
                 <h4>{`${item.company} - ${item.role}`}</h4>
