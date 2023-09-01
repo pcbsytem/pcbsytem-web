@@ -1,4 +1,3 @@
-import React from 'react'
 import { CompanyLogo } from '../CompanyLogo'
 import { ContentContainer } from '../ContentContainer'
 import './index.css'
