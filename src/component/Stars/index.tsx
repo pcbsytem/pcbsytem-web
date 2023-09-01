@@ -11,7 +11,10 @@ export function Stars() {
   )
 
   useEffect(() => {
-    setWindowSize({ height: screen.height, width: screen.width })
+    setWindowSize({
+      height: screen?.height || 1080,
+      width: screen?.width || 1920
+    })
   }, [])
 
   return (

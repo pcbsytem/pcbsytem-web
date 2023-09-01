@@ -12,7 +12,6 @@ interface CompanyLogoProps {
 export function CompanyLogo({ name, url, path }: CompanyLogoProps) {
   const urlFull = useMemo(() => `${url}${path}`, [url, path])
   const checkURL = useCallback((url: string) => {
-    console.log(url)
     return url.match(/\.(jpeg|jpg|gif|png|ico)$/) != null
   }, [])
 
