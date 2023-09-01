@@ -1,0 +1,16 @@
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skills .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.skills .item p {
+  width: 160px;
+}

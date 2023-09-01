@@ -1,0 +1,6 @@
+.home {
+  max-width: 1280px;
+  margin: 0 16px 48px;
+  background-color: #212121;
+  z-index: 10;
+}

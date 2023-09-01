@@ -1,0 +1,35 @@
+.progress-bar {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  min-width: 200px;
+  max-width: 100%;
+  background-color: #e0e0e050;
+}
+
+.progress-bar .bar {
+  flex: 1;
+  height: 28px;
+  margin: 0 1px;
+  transition: transform 200ms ease;
+}
+
+.progress-bar .bar:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 20px #f5f5f5;
+}
+
+.progress-bar .bar.active {
+  background-color: #69f0ae;
+}
+
+.progress-bar .bar.no-active {
+  background-color: #f5f5f580;
+}
+
+.social-icon {
+  height: 36px;
+  width: 36px;
+  margin: 8px;
+  transition: transform 200ms ease;
+}

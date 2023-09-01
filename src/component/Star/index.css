@@ -1,0 +1,26 @@
+.star {
+  background-color: #eeeeee;
+  box-shadow: #ffffff 0px 0px 2px;
+  border-radius: 50%;
+  position: absolute;
+  animation: star-animate 1.7s ease-in-out infinite;
+}
+
+@keyframes star-animate {
+  0% {
+    background-color: #eeeeee25;
+    box-shadow: #ffffff 0px 0px 2px;
+  }
+  33% {
+    background-color: #eeeeee50;
+    box-shadow: #ffffff 0px 0px 10px;
+  }
+  66% {
+    background-color: #eeeeee75;
+    box-shadow: #ffffff 0px 0px 20px;
+  }
+  100% {
+    background-color: #eeeeee;
+    box-shadow: #ffffff 0px 0px 40px;
+  }
+}
