@@ -1,3 +1,4 @@
+import React from 'react'
 import { ContentContainer } from '../ContentContainer'
 import { ProgressBar } from '../ProgressBar'
 import './index.css'

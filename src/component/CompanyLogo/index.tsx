@@ -1,3 +1,4 @@
+import React from 'react'
 import Image from 'next/image'
 import notFound from './assets/image.png'
 import './index.css'
