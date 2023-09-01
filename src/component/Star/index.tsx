@@ -1,28 +1,26 @@
-'use client'
-
-import { useCallback, useEffect, useMemo, useState } from 'react'
+import { useCallback, useMemo } from 'react'
 import './index.css'
 
-export function Star() {
-  const [windowSize, setWindowSize] = useState({ height: 0, width: 0 })
+interface StarProps {
+  height: number
+  width: number
+}
+
+export function Star({ height, width }: StarProps) {
   const random = useMemo(() => Math.floor(Math.random() * 10), [])
   const size = {
     height: random,
     width: random
   }
   const handleGetAxis = useCallback(() => {
-    const axisY = Math.floor(Math.random() * windowSize.height)
-    const axisX = Math.floor(Math.random() * windowSize.width)
+    const axisY = Math.floor(Math.random() * height)
+    const axisX = Math.floor(Math.random() * width)
 
     return {
       bottom: `${axisY}px`,
       left: `${axisX}px`
     }
-  }, [])
-
-  useEffect(() => {
-    setWindowSize({ height: screen.height, width: screen.width })
-  }, [])
+  }, [height, width])
 
   return (
     <div
