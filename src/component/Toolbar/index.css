@@ -1,6 +1,6 @@
 .toolbar {
   z-index: 10;
   height: 56px;
-  width: 100%;
+  width: var(--hundred-percent-size);
   background-color: #424242;
 }

@@ -1,5 +1,5 @@
 .content-container {
-  width: 100%;
+  width: var(--hundred-percent-size);
   padding: 16px;
 }
 

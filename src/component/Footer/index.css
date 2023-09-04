@@ -1,6 +1,6 @@
 .footer {
   z-index: 10;
   height: 120px;
-  width: 100%;
+  width: var(--hundred-percent-size);
   background-color: #424242;
 }
