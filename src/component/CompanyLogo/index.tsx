@@ -1,5 +1,3 @@
-'use client'
-
 import Image, { StaticImageData } from 'next/image'
 import { companyImages } from './index.contants'
 import { useMemo } from 'react'

@@ -6,9 +6,7 @@ import './index.css'
 
 export function Stars() {
   const [windowSize, setWindowSize] = useState({ height: 0, width: 0 })
-  const starList = [...Array(Math.floor(Math.random() * 100))].map(() =>
-    Math.floor(Math.random() * 100)
-  )
+  const starList = [...Array(100)].map(() => Math.floor(Math.random() * 100))
 
   useEffect(() => {
     setWindowSize({
