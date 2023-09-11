@@ -1,7 +1,7 @@
 .company-logo {
   height: 32px;
   width: 32px;
-  border-radius: 2px;
+  border-radius: var(--card-border-radius);
   background-color: #eeeeee;
   transition: transform 200ms ease;
 }

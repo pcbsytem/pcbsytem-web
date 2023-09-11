@@ -1,0 +1,8 @@
+.about-me {
+}
+
+.about-me p {
+  opacity: 0.6;
+  text-align: justify;
+  line-height: 1.5rem;
+}

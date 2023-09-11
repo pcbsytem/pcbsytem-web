@@ -1,7 +1,7 @@
 .star {
   background-color: #eeeeee;
   box-shadow: #ffffff 0px 0px 2px;
-  border-radius: 50%;
+  border-radius: var(--circle-border-radius);
   position: absolute;
   animation: star-animate 1.7s ease-in-out infinite;
 }

@@ -1,7 +1,7 @@
 .experience .item {
   padding: 16px;
   margin-bottom: 16px;
-  border-radius: 8px;
+  border-radius: var(--card-border-radius);
   background-color: #61616130;
   border-bottom: 1px solid #f5f5f5;
 }

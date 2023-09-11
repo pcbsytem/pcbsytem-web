@@ -30,7 +30,7 @@
 .hero .content .profile {
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: var(--circle-border-radius);
   background-image: url(./assets/profile.jpeg);
   background-position: bottom center;
   background-size: cover;
