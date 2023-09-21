@@ -1,94 +1,34 @@
+'use client'
+
+import { useEffect, useState } from 'react'
 import { ContentContainer } from '../ContentContainer'
 import { ProgressBar } from '../ProgressBar'
+import { URL } from '@/constants'
 import './index.css'
 
+interface SkillProps {
+  level: number
+  name: string
+}
+
+interface ResponseProps {
+  id: string
+  list: SkillProps[]
+}
+
 export function Skills() {
-  const skills = [
-    {
-      name: 'NextJS',
-      level: 2
-    },
-    {
-      name: 'ReactJS',
-      level: 5
-    },
-    {
-      name: 'React Native',
-      level: 4
-    },
-    {
-      name: 'AngularJS',
-      level: 2
-    },
-    {
-      name: 'Angular',
-      level: 3
-    },
-    {
-      name: 'JavaScript',
-      level: 5
-    },
-    {
-      name: 'Typescript',
-      level: 4
-    },
-    {
-      name: 'GraphQL',
-      level: 2
-    },
-    {
-      name: 'Apollo Client',
-      level: 3
-    },
-    {
-      name: 'CSS',
-      level: 5
-    },
-    {
-      name: 'Sass',
-      level: 2
-    },
-    {
-      name: 'Styled Components',
-      level: 3
-    },
-    {
-      name: 'Redux',
-      level: 4
-    },
-    {
-      name: 'Jest',
-      level: 3
-    },
-    {
-      name: 'Detox',
-      level: 3
-    },
-    {
-      name: 'Context API',
-      level: 3
-    },
-    {
-      name: 'Eslint',
-      level: 2
-    },
-    {
-      name: 'Bootstrap',
-      level: 3
-    },
-    {
-      name: 'Git',
-      level: 3
-    },
-    {
-      name: 'GitHub Actions',
-      level: 2
-    },
-    {
-      name: 'NodeJS',
-      level: 1
-    }
-  ]
+  const [skills, setSkills] = useState<SkillProps[]>([])
+
+  const getData = async () => {
+    const response = await fetch(URL.SKILL)
+    const { data } = await response.json()
+    const [{ list }] = data.filter((item: ResponseProps) => item.id)
+    setSkills([...list])
+  }
+
+  useEffect(() => {
+    getData()
+  }, [])
 
   return (
     <ContentContainer title="Skills">
