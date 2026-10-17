@@ -27,5 +27,9 @@
     "protobufjs@7.6.6": true,
     "protobufjs@6.11.6": true,
     "unrs-resolver@1.12.2": true
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "playwright": "^1.64.1"
   }
 }
