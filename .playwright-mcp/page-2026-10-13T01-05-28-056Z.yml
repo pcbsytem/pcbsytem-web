@@ -1,0 +1,41 @@
+- generic [active] [ref=f26e1]:
+  - main [ref=f26e2]:
+    - generic [ref=f26e4]:
+      - heading "Patrick Cristian Barcelos" [level=1] [ref=f26e5]
+      - heading "Frontend Developer" [level=2] [ref=f26e6]
+      - paragraph [ref=f26e7]: 7 years in web and mobile technologies
+      - generic [ref=f26e8]: NextJSReactJSReact NativeAngularTypescript
+      - paragraph [ref=f26e9]: Experienced front-end developer with skills in web and mobile technologies. I have expertise in NextJS, ReactJS, React Native, Angular, and Typescript. I have worked on a lot of kinds of projects, from small websites to large-scale web applications and mobile apps. I have mentored junior and mid-level front-end developers and helped them improve their coding skills and best practices. I have also worked on a project with GFT Costa Rica, a leading IT company, where I built a web app that manages industry assets. I have developed web and mobile apps for various platforms, such as iOS and Android, using React Native and native technologies. I have a keen eye for design and usability and I can create beautiful and user-friendly interfaces that work well on different devices and resolutions. I can work under pressure and deliver high-quality results within tight deadlines. I am proactive and always eager to learn new things and take on new challenges. I work fast and efficiently, without compromising quality or functionality. I love web and mobile development and I enjoy creating amazing user experiences that solve real problems. I am looking for long-term or short-term projects where I can use my skills and knowledge to help you achieve your goals.
+      - generic [ref=f26e10]: Looking for long-term or short-term projects where I can use my skills and knowledge to help you achieve your goals
+    - generic [ref=f26e12]:
+      - heading "About Me" [level=2] [ref=f26e13]
+      - paragraph [ref=f26e14]: Frontend Developer with 7 years of experience in web and mobile technologies
+      - generic [ref=f26e15]: 7 years of experience
+    - generic [ref=f26e17]:
+      - heading "Skills" [level=2] [ref=f26e18]
+      - generic [ref=f26e19]:
+        - generic [ref=f26e20]:
+          - heading "Technical" [level=3] [ref=f26e21]
+          - generic [ref=f26e22]: NextJSReactJSReact NativeAngularTypescriptFirebaseCSS3HTML5
+        - generic [ref=f26e23]:
+          - heading "Soft Skills" [level=3] [ref=f26e24]
+          - generic [ref=f26e25]: MentorshipProblem-solvingCommunicationTime managementPressure resilience
+    - generic [ref=f26e27]:
+      - heading "Experience" [level=2] [ref=f26e28]
+      - generic [ref=f26e29]:
+        - generic [ref=f26e30]:
+          - heading "Frontend Developer" [level=3] [ref=f26e31]
+          - paragraph [ref=f26e32]: GFT Costa Rica - Industry assets management web app
+          - paragraph [ref=f26e33]: Developed web applications managing industry assets for a leading IT company
+        - generic [ref=f26e34]:
+          - heading "Mobile Development" [level=3] [ref=f26e35]
+          - paragraph [ref=f26e36]: iOS and Android applications
+          - paragraph [ref=f26e37]: Developed cross-platform mobile applications using React Native and native technologies
+        - generic [ref=f26e38]:
+          - heading "Mentorship" [level=3] [ref=f26e39]
+          - paragraph [ref=f26e40]: Mentoring junior and mid-level front-end developers
+          - paragraph [ref=f26e41]: Helping improve coding skills and best practices
+    - generic [ref=f26e43]:
+      - heading "Stars" [level=2] [ref=f26e44]
+      - paragraph [ref=f26e45]: 0 stars
+  - alert [ref=f26e46]

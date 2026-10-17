@@ -1,0 +1,36 @@
+[    2042ms] [ERROR] ./src/app/page.tsx:2:0
+Module not found: Can't resolve '@/component'
+  1 | import styles from '@/page.module.css'
+> 2 | import { Hero } from '@/component'
+  3 | import { AboutMe } from '@/component'
+  4 | import { Skills } from '@/component'
+  5 | import { Experience } from '@/component'
+
+https://nextjs.org/docs/messages/module-not-found @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[    2245ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3001/:0
+[    2423ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///./node_modules/react-dom/cjs/react-dom.development.js:29834
+[    2450ms] Error: Module not found: Can't resolve '@/component'
+  1 | import styles from '@/page.module.css'
+> 2 | import { Hero } from '@/component'
+  3 | import { AboutMe } from '@/component'
+  4 | import { Skills } from '@/component'
+  5 | import { Experience } from '@/component'
+
+https://nextjs.org/docs/messages/module-not-found
+
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at getNotFoundError (file://C:\projects\pcbsytem-web\node_modules\next\dist\build\webpack\plugins\wellknown-errors-plugin\parseNotFoundError.js:128:16)
+    at async getModuleBuildError (file://C:\projects\pcbsytem-web\node_modules\next\dist\build\webpack\plugins\wellknown-errors-plugin\webpackModuleError.js:102:27)
+    at async (file://C:\projects\pcbsytem-web\node_modules\next\dist\build\webpack\plugins\wellknown-errors-plugin\index.js:21:49)
+    at async (file://C:\projects\pcbsytem-web\node_modules\next\dist\build\webpack\plugins\wellknown-errors-plugin\index.js:19:21)
+[    2450ms] [LOG] [HMR] connected @ webpack-internal:///./node_modules/next/dist/client/dev/error-overlay/websocket.js:47
+[    2451ms] [ERROR] ./src/app/page.tsx:2:0
+Module not found: Can't resolve '@/component'
+  1 | import styles from '@/page.module.css'
+> 2 | import { Hero } from '@/component'
+  3 | import { AboutMe } from '@/component'
+  4 | import { Skills } from '@/component'
+  5 | import { Experience } from '@/component'
+
+https://nextjs.org/docs/messages/module-not-found @ webpack-internal:///./node_modules/next/dist/compiled/@next/react-dev-overlay/dist/client.js:1
+[    3191ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3001/favicon.ico:0

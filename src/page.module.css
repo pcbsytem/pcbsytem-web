@@ -1,0 +1,175 @@
+.hero {
+  minHeight: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.container {
+  maxWidth: 800px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.name {
+  fontSize: 48px;
+  fontWeight: 800;
+  marginBottom: 16px;
+}
+
+.title {
+  fontSize: 24px;
+  marginBottom: 24px;
+  opacity: 0.9;
+}
+
+.experience {
+  fontSize: 18px;
+  marginBottom: 32px;
+  maxWidth: 600px;
+  marginLeft: auto;
+  marginRight: auto;
+}
+
+.skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.skill-tag {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 8px 16px;
+  borderRadius: 20px;
+  fontSize: 14px;
+  margin: 4px;
+}
+
+.about {
+  fontSize: 16px;
+  marginBottom: 32px;
+  maxWidth: 600px;
+  marginLeft: auto;
+  marginRight: auto;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: white;
+  color: #667eea;
+  borderRadius: 30px;
+  fontWeight: 600;
+  textDecoration: none;
+  transition: transform 0.2s;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+}
+
+.social-links {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  marginBottom: 24px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  borderRadius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  transition: background 0.2s, transform 0.2s;
+  textDecoration: none;
+}
+
+.social-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.about-section {
+  padding: 60px 20px;
+  maxWidth: 1000px;
+  margin: 0 auto;
+}
+
+.intro {
+  fontSize: 18px;
+  marginBottom: 16px;
+  color: #333;
+  fontWeight: 500;
+}
+
+.about {
+  fontSize: 16px;
+  lineHeight: 1.7;
+  maxWidth: 800px;
+  margin: 0 auto;
+  color: #444;
+}
+
+.section-title {
+  fontSize: 32px;
+  marginBottom: 24px;
+  textAlign: center;
+  color: #333;
+}
+
+.skills-section {
+  padding: 60px 20px;
+  background: #f8f9fa;
+}
+
+.skills-list {
+  display: flex;
+  flexWrap: wrap;
+  gap: 12px;
+  justifyContent: center;
+  listStyle: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-item {
+  background: white;
+  padding: 8px 16px;
+  borderRadius: 20px;
+  fontSize: 14px;
+  boxShadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.experience-section {
+  padding: 60px 20px;
+}
+
+.experience-list {
+  display: grid;
+  gap: 24px;
+}
+
+.experience-item {
+  padding: 24px;
+  background: white;
+  borderRadius: 8px;
+  boxShadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.stars {
+  padding: 60px 20px;
+  textAlign: center;
+  background: #f8f9fa;
+}

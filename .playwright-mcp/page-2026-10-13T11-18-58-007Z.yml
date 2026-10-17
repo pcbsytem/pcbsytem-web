@@ -1,0 +1,59 @@
+- generic [active] [ref=f5e1]:
+  - main [ref=f5e2]:
+    - generic [ref=f5e4]:
+      - heading "Patrick Cristian Barcelos" [level=1] [ref=f5e5]
+      - heading "Frontend Developer" [level=2] [ref=f5e6]
+      - paragraph [ref=f5e7]: 7 years in web and mobile technologies
+      - generic [ref=f5e8]:
+        - generic [ref=f5e9]: NextJS
+        - generic [ref=f5e10]: ReactJS
+        - generic [ref=f5e11]: React Native
+        - generic [ref=f5e12]: Angular
+        - generic [ref=f5e13]: Typescript
+      - paragraph [ref=f5e14]: Experienced front-end developer with skills in web and mobile technologies. I have expertise in NextJS, ReactJS, React Native, Angular, and Typescript. I have worked on a lot of kinds of projects, from small websites to large-scale web applications and mobile apps. I have mentored junior and mid-level front-end developers and helped them improve their coding skills and best practices. I have also worked on a project with GFT Costa Rica, a leading IT company, where I built a web app that manages industry assets. I have developed web and mobile apps for various platforms, such as iOS and Android, using React Native and native technologies. I have a keen eye for design and usability and I can create beautiful and user-friendly interfaces that work well on different devices and resolutions. I can work under pressure and deliver high-quality results within tight deadlines. I am proactive and always eager to learn new things and take on new challenges. I work fast and efficiently, without compromising quality or functionality. I love web and mobile development and I enjoy creating amazing user experiences that solve real problems. I am looking for long-term or short-term projects where I can use my skills and knowledge to help you achieve your goals.
+      - generic [ref=f5e15]: Looking for long-term or short-term projects where I can use my skills and knowledge to help you achieve your goals
+    - generic [ref=f5e17]:
+      - heading "About Me" [level=2] [ref=f5e18]
+      - paragraph [ref=f5e19]: Frontend Developer with 7 years of experience in web and mobile technologies
+      - generic [ref=f5e20]: 7 years of experience
+    - generic [ref=f5e22]:
+      - heading "Skills" [level=2] [ref=f5e23]
+      - generic [ref=f5e24]:
+        - generic [ref=f5e25]:
+          - heading "Technical" [level=3] [ref=f5e26]
+          - generic [ref=f5e27]:
+            - generic [ref=f5e28]: NextJS
+            - generic [ref=f5e29]: ReactJS
+            - generic [ref=f5e30]: React Native
+            - generic [ref=f5e31]: Angular
+            - generic [ref=f5e32]: Typescript
+            - generic [ref=f5e33]: Firebase
+            - generic [ref=f5e34]: CSS3
+            - generic [ref=f5e35]: HTML5
+        - generic [ref=f5e36]:
+          - heading "Soft Skills" [level=3] [ref=f5e37]
+          - generic [ref=f5e38]:
+            - generic [ref=f5e39]: Mentorship
+            - generic [ref=f5e40]: Problem-solving
+            - generic [ref=f5e41]: Communication
+            - generic [ref=f5e42]: Time management
+            - generic [ref=f5e43]: Pressure resilience
+    - generic [ref=f5e45]:
+      - heading "Experience" [level=2] [ref=f5e46]
+      - generic [ref=f5e47]:
+        - generic [ref=f5e48]:
+          - heading "Frontend Developer" [level=3] [ref=f5e49]
+          - paragraph [ref=f5e50]: GFT Costa Rica - Industry assets management web app
+          - paragraph [ref=f5e51]: Developed web applications managing industry assets for a leading IT company
+        - generic [ref=f5e52]:
+          - heading "Mobile Development" [level=3] [ref=f5e53]
+          - paragraph [ref=f5e54]: iOS and Android applications
+          - paragraph [ref=f5e55]: Developed cross-platform mobile applications using React Native and native technologies
+        - generic [ref=f5e56]:
+          - heading "Mentorship" [level=3] [ref=f5e57]
+          - paragraph [ref=f5e58]: Mentoring junior and mid-level front-end developers
+          - paragraph [ref=f5e59]: Helping improve coding skills and best practices
+    - generic [ref=f5e61]:
+      - heading "Stars" [level=2] [ref=f5e62]
+      - paragraph [ref=f5e63]: 0 stars
+  - alert [ref=f5e64]
